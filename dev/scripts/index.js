@@ -58,8 +58,3 @@ getJSON('/list.json', function (err, data) {
         
     })
 });
-
-document.getElementById('home').onclick = function () {
-    history.pushState({}, 'Bénévoles',window.location.href);
-    window.location.replace('https://decouverto.fr');
-}

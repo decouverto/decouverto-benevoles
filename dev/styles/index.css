@@ -16,26 +16,6 @@ body {
     box-sizing: border-box;
 }
 
-header {
-    flex-shrink: 0;
-    overflow: hidden;
-    background-size: 100%;
-    background-color: #dc3133;
-    background-repeat: no-repeat;
-    color: #fff;
-    padding: 0;
-}
-
-header h1 {
-    margin: 0;
-    padding-left: 10px;
-    font-size: 2em;
-}
-
-header h1 {
-    margin: 1rem;
-}
-
 section {
     padding: 0;
 }
@@ -279,10 +259,34 @@ img {
     max-height: 500px;
 }
 
-h1 {
-    cursor: pointer;
+header {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    background-size: 100%;
+    background-color: #dc3133;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    line-height: 66px;
+    overflow: hidden;
+    color: #fff
 }
 
-h1:hover {
-    text-decoration: underline;
+header a {
+    float: right;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0 10px
+}
+
+header a:hover {
+    color: #a52222
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 10px;
+    font-size: 2em;
+    display: inline-block
 }
